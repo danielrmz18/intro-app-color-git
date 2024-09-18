@@ -9,6 +9,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const hexCode = document.getElementById('hexCode');
     const colorPicker = document.getElementById('colorPicker');
 
+    
+
     function componentToHex(c) {
         const hex = c.toString(16);
         return hex.length === 1 ? "0" + hex : hex;
